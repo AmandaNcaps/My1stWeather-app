@@ -1,5 +1,6 @@
 body {
   background-color: #f0d9da;
+  font-family: "Roboto", sans-serif;
 }
 
 .weather-app {
@@ -40,7 +41,6 @@ a {
 main {
   padding: 30px 0;
 }
-
 .weather-app-data {
   display: flex;
   justify-content: space-between;
@@ -53,9 +53,31 @@ main {
 }
 
 .weather-app-details {
-  font-size: 16px;
+  font-size: 20px;
   color: rgba(39, 33, 66, 0.4);
   line-height: 20px;
+  font-weight: 500;
+  text-align: end;
+}
+
+.weather-app-temp-container {
+  display: flex;
+}
+
+.weather-app-temp-value {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.weather-app-icon {
+  font-size: 44px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 20px;
 }
 .weather-app-details strong {
   color: palevioletred;
