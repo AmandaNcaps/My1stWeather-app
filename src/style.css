@@ -70,9 +70,13 @@ main {
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  font-weight: bold;
+  width: 88px;
+  height: 88px;
   margin-left: 10px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
 }
 
 .weather-app-unit {
