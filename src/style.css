@@ -104,10 +104,14 @@ footer {
   color: rgba(0, 0, 0, 0.7);
 }
 
+#forecast {
+  display: flex;
+  justify-content: space-around;
+}
+
 .weather-forecast {
   margin-top: 20px;
-  display: inline;
-  justify-content: space-between;
+  text-align: center;
 }
 
 .weather-forecast-date {
