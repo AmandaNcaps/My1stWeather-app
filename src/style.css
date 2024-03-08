@@ -106,6 +106,8 @@ footer {
 
 .weather-forecast {
   margin-top: 20px;
+  display: inline;
+  justify-content: space-between;
 }
 
 .weather-forecast-date {
